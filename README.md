@@ -2,12 +2,12 @@
 This repository is the PyTorch implementation of UWSegDepth: Semantic-Aware Instance-Level Depth Estimation in Underwater Scenes.
 
 <p align="center">
-  <video width="100%" autoplay loop muted playsinline>
-    <source src="assets/DemoVideo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <img src="assets/Demo.gif" width="100%">
+  <br>
   <strong>🔍 Demo: UWSegDepth in Real World Underwater Scenes</strong>
 </p>
+
+
 
 ## Getting Started
 ```bash
