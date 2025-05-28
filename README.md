@@ -24,9 +24,9 @@ source install_environment.sh
 ```
 #### or manually execute the following command:
 <details>
-<summary>📥 <strong>(Optional)</strong> Setup the virtual environment of UWDepth with SADDER. (click to expand)</summary>
+<summary>📥 <strong>(Optional)</strong> Setup the virtual environment of TRUDepth with SADDER. (click to expand)</summary>
 
-#### Run the commands below to manually setup the virtual environment of UWDepth with SADDER:
+#### Run the commands below to manually setup the virtual environment of TRUDepth with SADDER:
 ```bash
 # CUDA 11.3
 conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
@@ -131,9 +131,9 @@ Note: `*.pth` files should be placed in the `/saved_udepth_model` folder.
 </details>
 
 <details>
-<summary>📥 <strong>(Optional)</strong> Download Pre-trained UWDepth Model. (click to expand)</summary>
+<summary>📥 <strong>(Optional)</strong> Download Pre-trained TRUDepth Model. (click to expand)</summary>
 
-#### Run the commands below to download the pre-trained UWDepth model:
+#### Run the commands below to download the pre-trained TRUDepth model:
 ```bash
 cd data/saved_models
 
@@ -149,9 +149,9 @@ Note: `*.pth` files should be placed in the `/data/saved_models` folder.
 </details>
 
 <details>
-<summary>📥 <strong>(Optional)</strong> Download Pre-trained UWDepth with SADDER Model. (click to expand)</summary>
+<summary>📥 <strong>(Optional)</strong> Download Pre-trained TRUDepth with SADDER Model. (click to expand)</summary>
 
-#### Run the commands below to download the pre-trained UWDepth with SADDER model:
+#### Run the commands below to download the pre-trained TRUDepth with SADDER model:
 
 ```bash
 cd saved_models
@@ -181,3 +181,13 @@ bash run_uwsegdepth.sh
     year   = {2025}
 }
 ```
+
+## Acknowledgement
+This implementation is based on and refers to the following excellent works:
+
+1. [BARIS-ERA](https://github.com/PANpinchi/BARIS-ERA)  
+2. [WaterMask](https://github.com/LiamLian0727/WaterMask)  
+3. [SADDER](https://github.com/PANpinchi/SADDER)  
+4. [TRUDepth](https://github.com/ebnerluca/uw_depth)
+
+Please make sure to follow the licenses of these repositories. We sincerely thank the authors for their valuable contributions.
